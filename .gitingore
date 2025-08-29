@@ -1,0 +1,16 @@
+# Arquivo: .gitignore
+
+# Arquivo de variáveis de ambiente (MUITO IMPORTANTE)
+.env
+
+# Pasta do ambiente virtual
+venv/
+__pycache__/
+
+# Arquivos de IDE
+.vscode/
+.idea/
+
+# Arquivos de dados gerados (Opcional, mas recomendado)
+# É uma boa prática não versionar os dados, apenas o código.
+*.csv
